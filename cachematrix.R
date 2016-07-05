@@ -8,12 +8,12 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-  m <- NULL  # initialize the inverse matrix value
+  inv <- NULL  # initialize the inverse matrix value
   
   # 1 set the value of the matrix
   set <- function(y) {
     x <<- y
-    m <<- NULL
+    inv <<- NULL
   }
   
   # 2 get the value of the vector
